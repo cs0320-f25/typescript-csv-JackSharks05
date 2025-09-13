@@ -1,0 +1,3018 @@
+{
+  "requesterUsername": "JackSharks05",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/88631445",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_0064473f-9cfb-4a71-84fa-813251735037",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 94
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 95
+            },
+            "text": "I have an error at the end of my parseCSV function, can you help guide me to what I'm missing?",
+            "kind": "text"
+          }
+        ],
+        "text": "I have an error at the end of my parseCSV function, can you help guide me to what I'm missing?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:basic-parser.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "confirmation",
+          "title": "Enable Claude Sonnet 3.7 for all clients",
+          "message": {
+            "value": "Enable access to the latest Claude 3.7 Sonnet model from Anthropic. [Learn more about how GitHub Copilot serves Claude 3.7 Sonnet](https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot).",
+            "uris": {
+              "https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot": {
+                "$mid": 1,
+                "external": "https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot",
+                "path": "/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com"
+              }
+            }
+          },
+          "data": {
+            "prompt": "I have an error at the end of my parseCSV function, can you help guide me to what I'm missing?"
+          },
+          "buttons": [
+            "Enable"
+          ],
+          "isUsed": true
+        }
+      ],
+      "responseId": "response_864a7a2a-f503-43a6-8ff6-cd4246397536",
+      "result": {
+        "timings": {
+          "totalElapsed": 0
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1757737732262,
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_4df2d2bc-004b-4d3c-ad12-925973086d66",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 14
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 15
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.default",
+              "description": "Ask or edit in context",
+              "metadata": {
+                "themeIcon": {
+                  "id": "copilot"
+                },
+                "hasFollowups": false,
+                "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+                "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+                "helpTextPostfix": {
+                  "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+                  "isTrusted": {
+                    "enabledCommands": [
+                      "inlineChat.start",
+                      "github.copilot.open.walkthrough"
+                    ]
+                  },
+                  "supportThemeIcons": false,
+                  "supportHtml": false,
+                  "uris": {
+                    "command:inlineChat.start": {
+                      "$mid": 1,
+                      "path": "inlineChat.start",
+                      "scheme": "command"
+                    },
+                    "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                      "$mid": 1,
+                      "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                      "scheme": "https",
+                      "authority": "docs.github.com",
+                      "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+                    },
+                    "https://code.visualstudio.com/docs/copilot/overview": {
+                      "$mid": 1,
+                      "path": "/docs/copilot/overview",
+                      "scheme": "https",
+                      "authority": "code.visualstudio.com"
+                    },
+                    "command:github.copilot.open.walkthrough": {
+                      "$mid": 1,
+                      "path": "github.copilot.open.walkthrough",
+                      "scheme": "command"
+                    }
+                  }
+                },
+                "supportIssueReporting": false,
+                "requester": {
+                  "name": "JackSharks05",
+                  "icon": {
+                    "$mid": 1,
+                    "path": "/u/88631445",
+                    "scheme": "https",
+                    "authority": "avatars.githubusercontent.com",
+                    "query": "v=4"
+                  }
+                }
+              },
+              "name": "GitHubCopilot",
+              "fullName": "GitHub Copilot",
+              "isDefault": true,
+              "locations": [
+                "panel"
+              ],
+              "modes": [
+                "ask"
+              ],
+              "slashCommands": [],
+              "disambiguation": [
+                {
+                  "category": "generate_code_sample",
+                  "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+                  "examples": [
+                    "Write an example of computing a SHA256 hash."
+                  ]
+                },
+                {
+                  "category": "add_feature_to_file",
+                  "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+                  "examples": [
+                    "Add a refresh button to the table widget."
+                  ]
+                },
+                {
+                  "category": "question_about_specific_files",
+                  "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+                  "examples": [
+                    "What does this file do?"
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 14,
+              "endExclusive": 65
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 15,
+              "endLineNumber": 1,
+              "endColumn": 66
+            },
+            "text": " Enable: \"Enable Claude Sonnet 3.7 for all clients\"",
+            "kind": "text"
+          }
+        ],
+        "text": "@GitHubCopilot Enable: \"Enable Claude Sonnet 3.7 for all clients\""
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "I see a few issues in your `parseCSV` function that are causing errors:\n\n1. When parsing with a schema, you're pushing the entire result of `safeParse()` to the array, but you should only push the parsed data\n2. When using `safeParse()`, you need to handle the parsed data differently depending on success/failure\n3. The function's return type doesn't accurately reflect what you're returning\n\nHere's how to fix the issues:\n\n```typescript\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "export async function parseCSV<T>(path: string, CSVRowSchema: z.ZodType<T>): Promise<string[][] | T[]> {\n  // This initial block of code reads from a file in Node.js. The \"rl\"\n  // value can be iterated over in a \"for\" loop. \n  const fileStream = fs.createReadStream(path);\n  const rl = readline.createInterface({\n    input: fileStream,\n    crlfDelay: Infinity, // handle different line endings\n  });\n\n  \n  // Create an empty array to hold the results\n  let result: string[][] | T[] = [];\n  \n  // We add the \"await\" here because file I/O is asynchronous. \n  // We need to force TypeScript to _wait_ for a row before moving on. \n  // More on this in class soon!\n  for await (const line of rl) {\n    if (CSVRowSchema) {\n      // Split the line into values first\n      const values = line.split(\",\").map((v) => v.trim());\n      \n      // Then try to parse it with the schema\n      const parseResult = CSVRowSchema.safeParse(values);\n      \n      if (parseResult.success) {\n        // Only push the actual data if parsing succeeded\n        result.push(parseResult.data);\n      }\n      // You might want to handle the error case here\n    } else {\n      const values = line.split(\",\").map((v) => v.trim());\n      result.push(values);\n    }\n  }\n  \n  return result;\n}\n```\n\nThe key changes I made:\n\n1. Type annotation for `result` to match the return type\n2. When using the schema, first split the line into an array of values\n3. Use `parseResult.data` to get the actual parsed data when successful\n4. Properly handle the success case from `safeParse()` \n\nThis should fix your function to correctly parse CSV files with or without a schema.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_8082e69c-b31f-4816-9fba-b1a42436f8ed",
+      "result": {
+        "timings": {
+          "firstProgress": 1796,
+          "totalElapsed": 10846
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "export async function parseCSV<T>(path: string, CSVRowSchema: z.ZodType<T>): Promise<string[][] | T[]> {\n  // This initial block of code reads from a file in Node.js. The \"rl\"\n  // value can be iterated over in a \"for\" loop. \n  const fileStream = fs.createReadStream(path);\n  const rl = readline.createInterface({\n    input: fileStream,\n    crlfDelay: Infinity, // handle different line endings\n  });\n\n  \n  // Create an empty array to hold the results\n  let result: string[][] | T[] = [];\n  \n  // We add the \"await\" here because file I/O is asynchronous. \n  // We need to force TypeScript to _wait_ for a row before moving on. \n  // More on this in class soon!\n  for await (const line of rl) {\n    if (CSVRowSchema) {\n      // Split the line into values first\n      const values = line.split(\",\").map((v) => v.trim());\n      \n      // Then try to parse it with the schema\n      const parseResult = CSVRowSchema.safeParse(values);\n      \n      if (parseResult.success) {\n        // Only push the actual data if parsing succeeded\n        result.push(parseResult.data);\n      }\n      // You might want to handle the error case here\n    } else {\n      const values = line.split(\",\").map((v) => v.trim());\n      result.push(values);\n    }\n  }\n  \n  return result;\n}\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              },
+              "language": "typescript",
+              "markdownBeforeBlock": "I see a few issues in your `parseCSV` function that are causing errors:\n\n1. When parsing with a schema, you're pushing the entire result of `safeParse()` to the array, but you should only push the parsed data\n2. When using `safeParse()`, you need to handle the parsed data differently depending on success/failure\n3. The function's return type doesn't accurately reflect what you're returning\n\nHere's how to fix the issues:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "I see a few issues in your `parseCSV` function that are causing errors:\n\n1. When parsing with a schema, you're pushing the entire result of `safeParse()` to the array, but you should only push the parsed data\n2. When using `safeParse()`, you need to handle the parsed data differently depending on success/failure\n3. The function's return type doesn't accurately reflect what you're returning\n\nHere's how to fix the issues:\n\n```typescript\n// filepath: /Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts\nexport async function parseCSV<T>(path: string, CSVRowSchema: z.ZodType<T>): Promise<string[][] | T[]> {\n  // This initial block of code reads from a file in Node.js. The \"rl\"\n  // value can be iterated over in a \"for\" loop. \n  const fileStream = fs.createReadStream(path);\n  const rl = readline.createInterface({\n    input: fileStream,\n    crlfDelay: Infinity, // handle different line endings\n  });\n\n  \n  // Create an empty array to hold the results\n  let result: string[][] | T[] = [];\n  \n  // We add the \"await\" here because file I/O is asynchronous. \n  // We need to force TypeScript to _wait_ for a row before moving on. \n  // More on this in class soon!\n  for await (const line of rl) {\n    if (CSVRowSchema) {\n      // Split the line into values first\n      const values = line.split(\",\").map((v) => v.trim());\n      \n      // Then try to parse it with the schema\n      const parseResult = CSVRowSchema.safeParse(values);\n      \n      if (parseResult.success) {\n        // Only push the actual data if parsing succeeded\n        result.push(parseResult.data);\n      }\n      // You might want to handle the error case here\n    } else {\n      const values = line.split(\",\").map((v) => v.trim());\n      result.push(values);\n    }\n  }\n  \n  return result;\n}\n```\n\nThe key changes I made:\n\n1. Type annotation for `result` to match the return type\n2. When using the schema, first split the line into an array of values\n3. Use `parseResult.data` to get the actual parsed data when successful\n4. Properly handle the success case from `safeParse()` \n\nThis should fix your function to correctly parse CSV files with or without a schema.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "03c082b3-6e2b-4d37-ace9-92757d163eab"
+            }
+          ],
+          "modelMessageId": "5a0d8a38-cba7-47b3-a16d-d04473ec5199",
+          "responseId": "8078d9a2-0c97-40c2-af28-efbd0dddbcf8",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1757737734613,
+      "confirmation": "Enable",
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_b84a7d61-89f6-4ef0-839d-0b51123fa3c8",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 374
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 375
+            },
+            "text": "Currently, my tests are having issues as the parser function isn't able to use safeParse on the csv rows. I would want to convert that string into an array using line.split(\",\"), but there are some values in my rows that have commas in them, so I don't want it to blindly split these into arrays. How can I split them up using a schema? Please describe, don't generate code.",
+            "kind": "text"
+          }
+        ],
+        "text": "Currently, my tests are having issues as the parser function isn't able to use safeParse on the csv rows. I would want to convert that string into an array using line.split(\",\"), but there are some values in my rows that have commas in them, so I don't want it to blindly split these into arrays. How can I split them up using a schema? Please describe, don't generate code."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:basic-parser.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "## CSV Parsing with Complex Data Challenge\n\nI see the issue now. You're trying to parse CSV rows that contain commas within field values, which complicates the simple ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "split(\",\")",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 268,
+                "startColumn": 5,
+                "endLineNumber": 268,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                "external": "file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                "path": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "8007ec97-fd70-4dda-818b-e18f122b2fc8"
+        },
+        {
+          "value": " approach.\n\nWhen using a schema with a CSV parser where some values contain commas, here's how you might approach it:\n\n1. **Better CSV parsing logic**: Instead of a simple ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "split(\",\")",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 268,
+                "startColumn": 5,
+                "endLineNumber": 268,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                "external": "file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                "path": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "c497c556-089b-4551-b444-42a6c138d3ec"
+        },
+        {
+          "value": ", you need more sophisticated parsing that respects quoted fields. CSV has standard rules where fields containing commas should be enclosed in quotes.\n\n2. **Pre-processing before schema validation**: You'll need to first correctly parse the CSV line into an array of values (handling quotes properly), then pass that array to your Zod schema.\n\n3. **Custom parser for quoted fields**: You'd need logic that recognizes when a field starts with a quote and continues until the matching end quote, treating any commas inside these quotes as part of the field value rather than separators.\n\n4. **Using existing CSV libraries**: Consider using established CSV parsing libraries like `csv-parse` or `papaparse` that already handle these edge cases correctly. These libraries can split your line into proper fields before you apply schema validation.\n\nYour current implementation is passing the entire line as a single string to the schema validation, but your schema is likely expecting an array of values. That's why ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "safeParse()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 20,
+                "startColumn": 5,
+                "endLineNumber": 20,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "5095e4e7-fec9-4617-afba-736718f57a0c"
+        },
+        {
+          "value": " is failing. You need to first properly parse the CSV line into an array of values, accounting for quoted fields that may contain commas.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_bc674b48-a402-4dbd-b044-0f5d76829deb",
+      "result": {
+        "timings": {
+          "firstProgress": 1625,
+          "totalElapsed": 7099
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "## CSV Parsing with Complex Data Challenge\n\nI see the issue now. You're trying to parse CSV rows that contain commas within field values, which complicates the simple `split(\",\")` approach.\n\nWhen using a schema with a CSV parser where some values contain commas, here's how you might approach it:\n\n1. **Better CSV parsing logic**: Instead of a simple `split(\",\")`, you need more sophisticated parsing that respects quoted fields. CSV has standard rules where fields containing commas should be enclosed in quotes.\n\n2. **Pre-processing before schema validation**: You'll need to first correctly parse the CSV line into an array of values (handling quotes properly), then pass that array to your Zod schema.\n\n3. **Custom parser for quoted fields**: You'd need logic that recognizes when a field starts with a quote and continues until the matching end quote, treating any commas inside these quotes as part of the field value rather than separators.\n\n4. **Using existing CSV libraries**: Consider using established CSV parsing libraries like `csv-parse` or `papaparse` that already handle these edge cases correctly. These libraries can split your line into proper fields before you apply schema validation.\n\nYour current implementation is passing the entire line as a single string to the schema validation, but your schema is likely expecting an array of values. That's why `safeParse()` is failing. You need to first properly parse the CSV line into an array of values, accounting for quoted fields that may contain commas.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "e116a310-9ac1-47fc-98c0-962abbc1cd79"
+            }
+          ],
+          "modelMessageId": "81918bb5-9174-4725-9346-cc4afae6c68b",
+          "responseId": "3686c072-7918-4196-abdd-7e7250e54e7f",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1757778187009,
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_14ce6172-3e53-4255-8233-4849224945cd",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 65
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 66
+            },
+            "text": "Can you guide me towards how I'd do that in my parseCSV function?",
+            "kind": "text"
+          }
+        ],
+        "text": "Can you guide me towards how I'd do that in my parseCSV function?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+              "scheme": "file"
+            },
+            "name": "tests.csv",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "scheme": "file"
+            },
+            "name": "basic-parser.ts",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "scheme": "file"
+            },
+            "name": "new-parser.test.ts",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:basic-parser.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "## Parsing CSV with Quoted Fields\n\nLooking at your code and the test cases, I see the challenge now. You need to properly handle CSV rows that contain quoted fields with commas inside them. Here's how you can approach this:\n\n1. **First, look at the failing test pattern**:\n   - Your test `parseCSV with commas in fields` expects fields like `\"veni, vidi, vici\"` to be treated as a single value\n   - Your current implementation is just passing the entire line to the schema, which can't handle this correctly\n\n2. **Modify your parseCSV function** to:\n   - Split the CSV line correctly, respecting quoted fields\n   - Transform the array before passing to the schema validation\n\n3. **Implementation approach**:\n   - Create a proper CSV parsing function that handles quoted fields\n   - Split the line into an array of values\n   - Pass this array (not the raw line) to your schema\n\nHere's how to modify your approach:\n\n```typescript\n// Don't pass the raw line to safeParse\n// BEFORE:\nconst parsedResult: z.ZodSafeParseResult<CSVRow> = CSVRowSchema.safeParse(line)\n\n// AFTER:\n// 1. First parse the line into an array using a CSV-aware function\nconst values = parseCSVLine(line); // You'll need to implement this function\n// 2. Then validate with schema\nconst parsedResult: z.ZodSafeParseResult<CSVRow> = CSVRowSchema.safeParse(values)\n```\n\nFor the `parseCSVLine` function, you'll need to:\n1. Track whether you're inside quoted content\n2. Append characters to the current field\n3. When hitting a comma outside quotes, start a new field\n4. Handle special cases like escaped quotes\n\nLooking at your tests, I notice another issue - your schema seems to expect the transformation to occur within the schema itself. You're using:\n\n```typescript\nconst CSVRowSchema2 = z.string().transform(([person, yearOfBirth, quotes]) => ({ person, yearOfBirth: Number(yearOfBirth), quotes }));\n```\n\nThis suggests your schema expects to receive an array, but you're passing a single string to it. Make sure your parsing logic aligns with how your schema is designed to transform the data.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_d68ad630-177e-4d55-a72f-1f75a0e70440",
+      "result": {
+        "timings": {
+          "firstProgress": 2637,
+          "totalElapsed": 11762
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "// Don't pass the raw line to safeParse\n// BEFORE:\nconst parsedResult: z.ZodSafeParseResult<CSVRow> = CSVRowSchema.safeParse(line)\n\n// AFTER:\n// 1. First parse the line into an array using a CSV-aware function\nconst values = parseCSVLine(line); // You'll need to implement this function\n// 2. Then validate with schema\nconst parsedResult: z.ZodSafeParseResult<CSVRow> = CSVRowSchema.safeParse(values)\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "## Parsing CSV with Quoted Fields\n\nLooking at your code and the test cases, I see the challenge now. You need to properly handle CSV rows that contain quoted fields with commas inside them. Here's how you can approach this:\n\n1. **First, look at the failing test pattern**:\n   - Your test `parseCSV with commas in fields` expects fields like `\"veni, vidi, vici\"` to be treated as a single value\n   - Your current implementation is just passing the entire line to the schema, which can't handle this correctly\n\n2. **Modify your parseCSV function** to:\n   - Split the CSV line correctly, respecting quoted fields\n   - Transform the array before passing to the schema validation\n\n3. **Implementation approach**:\n   - Create a proper CSV parsing function that handles quoted fields\n   - Split the line into an array of values\n   - Pass this array (not the raw line) to your schema\n\nHere's how to modify your approach:\n\n"
+            },
+            {
+              "code": "const CSVRowSchema2 = z.string().transform(([person, yearOfBirth, quotes]) => ({ person, yearOfBirth: Number(yearOfBirth), quotes }));\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "\nFor the `parseCSVLine` function, you'll need to:\n1. Track whether you're inside quoted content\n2. Append characters to the current field\n3. When hitting a comma outside quotes, start a new field\n4. Handle special cases like escaped quotes\n\nLooking at your tests, I notice another issue - your schema seems to expect the transformation to occur within the schema itself. You're using:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "## Parsing CSV with Quoted Fields\n\nLooking at your code and the test cases, I see the challenge now. You need to properly handle CSV rows that contain quoted fields with commas inside them. Here's how you can approach this:\n\n1. **First, look at the failing test pattern**:\n   - Your test `parseCSV with commas in fields` expects fields like `\"veni, vidi, vici\"` to be treated as a single value\n   - Your current implementation is just passing the entire line to the schema, which can't handle this correctly\n\n2. **Modify your parseCSV function** to:\n   - Split the CSV line correctly, respecting quoted fields\n   - Transform the array before passing to the schema validation\n\n3. **Implementation approach**:\n   - Create a proper CSV parsing function that handles quoted fields\n   - Split the line into an array of values\n   - Pass this array (not the raw line) to your schema\n\nHere's how to modify your approach:\n\n```typescript\n// Don't pass the raw line to safeParse\n// BEFORE:\nconst parsedResult: z.ZodSafeParseResult<CSVRow> = CSVRowSchema.safeParse(line)\n\n// AFTER:\n// 1. First parse the line into an array using a CSV-aware function\nconst values = parseCSVLine(line); // You'll need to implement this function\n// 2. Then validate with schema\nconst parsedResult: z.ZodSafeParseResult<CSVRow> = CSVRowSchema.safeParse(values)\n```\n\nFor the `parseCSVLine` function, you'll need to:\n1. Track whether you're inside quoted content\n2. Append characters to the current field\n3. When hitting a comma outside quotes, start a new field\n4. Handle special cases like escaped quotes\n\nLooking at your tests, I notice another issue - your schema seems to expect the transformation to occur within the schema itself. You're using:\n\n```typescript\nconst CSVRowSchema2 = z.string().transform(([person, yearOfBirth, quotes]) => ({ person, yearOfBirth: Number(yearOfBirth), quotes }));\n```\n\nThis suggests your schema expects to receive an array, but you're passing a single string to it. Make sure your parsing logic aligns with how your schema is designed to transform the data.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "83794bb6-4c4e-4b6f-83d8-a06a916957eb"
+            }
+          ],
+          "modelMessageId": "b707105a-8163-43b6-988d-9c61a74d3dcf",
+          "responseId": "ab51e16b-bf4f-4d24-97e7-45497e0b6ec7",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1757778293750,
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_2bef1c57-abcd-437e-8289-f11172979a53",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 286
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 287
+            },
+            "text": "Currently, the parser is working and separating each of the rows of the CSV into a list of strings, which is great. However, for some reason, once it arrives to the test function, the results is an empty list, so none of the tests pass. Could you describe to me where the separation is?",
+            "kind": "text"
+          }
+        ],
+        "text": "Currently, the parser is working and separating each of the rows of the CSV into a list of strings, which is great. However, for some reason, once it arrives to the test function, the results is an empty list, so none of the tests pass. Could you describe to me where the separation is?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "scheme": "file"
+            },
+            "name": "basic-parser.ts",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+              "scheme": "file"
+            },
+            "name": "tests.csv",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:new-parser.test.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "## Understanding Your Empty Result Issue\n\nLooking at your code carefully, I can see the issue with why your CSV parser is returning an empty list. The problem is in the variable scoping within your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "parseCSV",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 23,
+                "endLineNumber": 18,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "f381e2e6-b748-49c7-8324-c40c6e0cbf13"
+        },
+        {
+          "value": " function:\n\n### Key Issue\n\nYou're creating **local variables** named ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "result",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 28,
+                "startColumn": 7,
+                "endLineNumber": 28,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "e1e2ad2c-8a03-4bbf-8587-48e88c472404"
+        },
+        {
+          "value": " inside your conditional blocks that shadow the outer ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "result",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 28,
+                "startColumn": 7,
+                "endLineNumber": 28,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "1d984edd-f661-4986-a5e9-0018fd3e77f4"
+        },
+        {
+          "value": " variable:\n\n```typescript\n// Outer result variable declared here\nlet result: string[][] | T[] = []\n\nif (CSVRowSchema) {\n  // NEW local result variable declared here, shadows the outer one\n  let result: T[] = []\n  \n  // All operations here affect the local variable\n  for await (const line of rl) {\n    // ...processing...\n    result.push(parsedResult.data)  // Pushes to local variable\n  }\n  \n  // Local variable goes out of scope here\n} else {\n  // ANOTHER local result variable declared here\n  let result: string[][] = []\n  \n  // All operations here affect this local variable\n  for await (const line of rl) {\n    // ...processing...\n    result.push(values)  // Pushes to local variable\n  }\n  \n  // Local variable goes out of scope here\n}\n\n// Return the outer result, which was never modified\nreturn result\n```\n\nBoth conditional blocks create their own local ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "result",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 28,
+                "startColumn": 7,
+                "endLineNumber": 28,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "6f2f0faa-61df-4ac5-b460-7541ebc85c31"
+        },
+        {
+          "value": " variables instead of modifying the outer one. This is called **variable shadowing**. When you return ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "result",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 28,
+                "startColumn": 7,
+                "endLineNumber": 28,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "506ecc79-fca2-45f8-bc4e-a95e5a0e756a"
+        },
+        {
+          "value": " at the end, you're returning the outer variable which was never populated.\n\n### Fix Approach\n\nYou need to modify your code to:\n\n1. Declare the ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "result",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 28,
+                "startColumn": 7,
+                "endLineNumber": 28,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "54411c89-f2a1-4a2d-b6f1-784a6d8b0004"
+        },
+        {
+          "value": " variable once\n2. Properly type it based on the conditional path\n3. Use the same variable in both conditional blocks\n\nThis way, the data you collect during processing will be returned correctly to the calling function and be available for your tests.\n\nThe reason your tests are failing is that they're receiving an empty array from your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "parseCSV",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 23,
+                "endLineNumber": 18,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "288d5f23-074c-48cb-a47a-3206d2a8afca"
+        },
+        {
+          "value": " function, even though your parser logic itself is working correctly to separate the CSV rows.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_0c7036a9-1b3c-42c8-8136-a1c8fc1e7635",
+      "result": {
+        "timings": {
+          "firstProgress": 2231,
+          "totalElapsed": 9271
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "// Outer result variable declared here\nlet result: string[][] | T[] = []\n\nif (CSVRowSchema) {\n  // NEW local result variable declared here, shadows the outer one\n  let result: T[] = []\n  \n  // All operations here affect the local variable\n  for await (const line of rl) {\n    // ...processing...\n    result.push(parsedResult.data)  // Pushes to local variable\n  }\n  \n  // Local variable goes out of scope here\n} else {\n  // ANOTHER local result variable declared here\n  let result: string[][] = []\n  \n  // All operations here affect this local variable\n  for await (const line of rl) {\n    // ...processing...\n    result.push(values)  // Pushes to local variable\n  }\n  \n  // Local variable goes out of scope here\n}\n\n// Return the outer result, which was never modified\nreturn result\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "## Understanding Your Empty Result Issue\n\nLooking at your code carefully, I can see the issue with why your CSV parser is returning an empty list. The problem is in the variable scoping within your  function:\n\n### Key Issue\n\nYou're creating **local variables** named  inside your conditional blocks that shadow the outer  variable:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "## Understanding Your Empty Result Issue\n\nLooking at your code carefully, I can see the issue with why your CSV parser is returning an empty list. The problem is in the variable scoping within your `parseCSV` function:\n\n### Key Issue\n\nYou're creating **local variables** named `result` inside your conditional blocks that shadow the outer `result` variable:\n\n```typescript\n// Outer result variable declared here\nlet result: string[][] | T[] = []\n\nif (CSVRowSchema) {\n  // NEW local result variable declared here, shadows the outer one\n  let result: T[] = []\n  \n  // All operations here affect the local variable\n  for await (const line of rl) {\n    // ...processing...\n    result.push(parsedResult.data)  // Pushes to local variable\n  }\n  \n  // Local variable goes out of scope here\n} else {\n  // ANOTHER local result variable declared here\n  let result: string[][] = []\n  \n  // All operations here affect this local variable\n  for await (const line of rl) {\n    // ...processing...\n    result.push(values)  // Pushes to local variable\n  }\n  \n  // Local variable goes out of scope here\n}\n\n// Return the outer result, which was never modified\nreturn result\n```\n\nBoth conditional blocks create their own local `result` variables instead of modifying the outer one. This is called **variable shadowing**. When you return `result` at the end, you're returning the outer variable which was never populated.\n\n### Fix Approach\n\nYou need to modify your code to:\n\n1. Declare the `result` variable once\n2. Properly type it based on the conditional path\n3. Use the same variable in both conditional blocks\n\nThis way, the data you collect during processing will be returned correctly to the calling function and be available for your tests.\n\nThe reason your tests are failing is that they're receiving an empty array from your `parseCSV` function, even though your parser logic itself is working correctly to separate the CSV rows.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "754b2782-e29d-4004-9995-f3e57d452703"
+            }
+          ],
+          "modelMessageId": "f792dacb-677d-492f-8eb6-57ca159be1c1",
+          "responseId": "57a22c17-e6e1-4fdd-9462-723c074aa125",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/data/tests.csv",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1757779035447,
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_bf944a13-5174-4721-9b52-e95dd93aa194",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 180
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 181
+            },
+            "text": "All right, I think there's an issue with my schema. I think it should be an array of objects, but the safeParse isn't liking that. Can you explain to me where the disconnection is?",
+            "kind": "text"
+          }
+        ],
+        "text": "All right, I think there's an issue with my schema. I think it should be an array of objects, but the safeParse isn't liking that. Can you explain to me where the disconnection is?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:new-parser.test.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "# Understanding the Schema-Parsing Disconnect\n\nLooking at both your code files, I can see the mismatch between your schema and how you're using it in the parse function.\n\n## The Mismatch\n\nYour schemas are defined as:\n\n```typescript\nconst CSVRowSchema1 = z.object({\n    name: z.string(),\n    age: z.number().min(0).optional()\n}).array().length(2).transform(([name, age]) => ({ name, age: Number(age) }));\n\nconst CSVRowSchema2 = z.object({\n    person: z.string(),\n    yearOfBirth: z.number().min(0).optional(),\n    quotes: z.string().optional()\n}).array().length(3).transform(([person, yearOfBirth, quotes]) => ({ person, yearOfBirth: Number(yearOfBirth), quotes }));\n```\n\nThese schemas have a few interesting properties:\n\n1. They expect an **array** as input (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "array().length(2)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 43,
+                "startColumn": 5,
+                "endLineNumber": 43,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "a76b5f05-c7fa-4ecf-b100-5495a05b5474"
+        },
+        {
+          "value": " or ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "array().length(3)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 43,
+                "startColumn": 5,
+                "endLineNumber": 43,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "77fe272c-5a57-41b9-bffb-9a3dedb36168"
+        },
+        {
+          "value": ")\n2. They transform that array into an object with named properties\n3. Later in your test, you're validating with ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "CSVRowSchema1.array()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 6,
+                "startColumn": 7,
+                "endLineNumber": 6,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "64b07c4e-9238-48b2-8d21-507b804f2933"
+        },
+        {
+          "value": " - so you expect an array of these transformed objects\n\n## The Issue\n\nThe issue is twofold:\n\n1. **Variable Shadowing**: As I mentioned earlier, you're creating new local `result` variables inside your if/else blocks that hide the outer one.\n\n2. **Schema Expectation vs Reality**: Your schema expects a single row of CSV data to be passed as an array (e.g., `[\"Alice\", \"23\"]`), which it then transforms into `{name: \"Alice\", age: 23}`. But when you do ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "safeParse(values)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 20,
+                "startColumn": 5,
+                "endLineNumber": 20,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "763a9029-430c-4e7c-a503-077a7801f44a"
+        },
+        {
+          "value": ", your `values` needs to match this expectation.\n\n## Understanding the Flow\n\nYour parsing process should be:\n\n1. Parse each line into an array of values\n2. Pass that array to your schema\n3. The schema transforms that array into an object\n4. Add the transformed object to your result array\n5. Return the array of transformed objects\n6. In your test, validate that array of objects\n\n## Next Step\n\nYou need to fix the variable shadowing first. Then make sure the parsing logic is passing arrays of the right shape to your schemas. The current `parseCSVLine` function appears to be correctly splitting lines into arrays, but ensure each array is being passed correctly to the schema's ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "safeParse",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 20,
+                "startColumn": 5,
+                "endLineNumber": 20,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/schemas.d.cts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "6d2a3d24-59b6-413f-8007-29e5623c3cb4"
+        },
+        {
+          "value": " method.\n\nThe key is to understand that your schema expects:\n- Input: `[\"Alice\", \"23\"]` \n- Output: `{name: \"Alice\", age: 23}`\n\nBut in your tests, you're validating an array of these objects with ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "CSVRowSchema1.array().safeParse(results)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 6,
+                "startColumn": 7,
+                "endLineNumber": 6,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "e6add226-1074-4d62-bdae-ac769815acc8"
+        },
+        {
+          "value": ".",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          },
+          "uris": {}
+        }
+      ],
+      "responseId": "response_e5461e7a-dfa0-4e54-b2e0-93036ed8e496",
+      "result": {
+        "timings": {
+          "firstProgress": 1954,
+          "totalElapsed": 12202
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "const CSVRowSchema1 = z.object({\n    name: z.string(),\n    age: z.number().min(0).optional()\n}).array().length(2).transform(([name, age]) => ({ name, age: Number(age) }));\n\nconst CSVRowSchema2 = z.object({\n    person: z.string(),\n    yearOfBirth: z.number().min(0).optional(),\n    quotes: z.string().optional()\n}).array().length(3).transform(([person, yearOfBirth, quotes]) => ({ person, yearOfBirth: Number(yearOfBirth), quotes }));\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "# Understanding the Schema-Parsing Disconnect\n\nLooking at both your code files, I can see the mismatch between your schema and how you're using it in the parse function.\n\n## The Mismatch\n\nYour schemas are defined as:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "# Understanding the Schema-Parsing Disconnect\n\nLooking at both your code files, I can see the mismatch between your schema and how you're using it in the parse function.\n\n## The Mismatch\n\nYour schemas are defined as:\n\n```typescript\nconst CSVRowSchema1 = z.object({\n    name: z.string(),\n    age: z.number().min(0).optional()\n}).array().length(2).transform(([name, age]) => ({ name, age: Number(age) }));\n\nconst CSVRowSchema2 = z.object({\n    person: z.string(),\n    yearOfBirth: z.number().min(0).optional(),\n    quotes: z.string().optional()\n}).array().length(3).transform(([person, yearOfBirth, quotes]) => ({ person, yearOfBirth: Number(yearOfBirth), quotes }));\n```\n\nThese schemas have a few interesting properties:\n\n1. They expect an **array** as input (`array().length(2)` or `array().length(3)`)\n2. They transform that array into an object with named properties\n3. Later in your test, you're validating with `CSVRowSchema1.array()` - so you expect an array of these transformed objects\n\n## The Issue\n\nThe issue is twofold:\n\n1. **Variable Shadowing**: As I mentioned earlier, you're creating new local `result` variables inside your if/else blocks that hide the outer one.\n\n2. **Schema Expectation vs Reality**: Your schema expects a single row of CSV data to be passed as an array (e.g., `[\"Alice\", \"23\"]`), which it then transforms into `{name: \"Alice\", age: 23}`. But when you do `safeParse(values)`, your `values` needs to match this expectation.\n\n## Understanding the Flow\n\nYour parsing process should be:\n\n1. Parse each line into an array of values\n2. Pass that array to your schema\n3. The schema transforms that array into an object\n4. Add the transformed object to your result array\n5. Return the array of transformed objects\n6. In your test, validate that array of objects\n\n## Next Step\n\nYou need to fix the variable shadowing first. Then make sure the parsing logic is passing arrays of the right shape to your schemas. The current `parseCSVLine` function appears to be correctly splitting lines into arrays, but ensure each array is being passed correctly to the schema's `safeParse` method.\n\nThe key is to understand that your schema expects:\n- Input: `[\"Alice\", \"23\"]` \n- Output: `{name: \"Alice\", age: 23}`\n\nBut in your tests, you're validating an array of these objects with `CSVRowSchema1.array().safeParse(results)`.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "d5dd10fc-2458-4502-9f16-00484065fc80"
+            }
+          ],
+          "modelMessageId": "cf8603bc-5599-4d1a-8336-c49ca74be254",
+          "responseId": "9c148558-7ad1-4808-ace4-633fbfc324b5",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1757780096158,
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_5cccc9bc-8fcc-45bb-9d96-a10e5a8bbee6",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 157
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 158
+            },
+            "text": "So here, is it wrong to use the safeParse here already? Should I return just a string[][] so that the schema on the other side can dissect that into objects?",
+            "kind": "text"
+          }
+        ],
+        "text": "So here, is it wrong to use the safeParse here already? Should I return just a string[][] so that the schema on the other side can dissect that into objects?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "scheme": "file"
+            },
+            "name": "new-parser.test.ts",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:basic-parser.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "# Understanding the Schema Validation Flow\n\nLooking at both your code and tests, I see where the confusion lies. Let me clarify how the schema validation should work:\n\n## The Current Issue\n\nThe core issue is related to the schema expectations and validation flow:\n\n1. In your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "parseCSV",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 23,
+                "endLineNumber": 18,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "20677156-b981-45bd-a48e-b67feea4d295"
+        },
+        {
+          "value": " function, you're doing initial schema validation with ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "CSVRowSchema.safeParse(values)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 49,
+                "endLineNumber": 18,
+                "endColumn": 49
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "64fd54cc-9a6d-4baf-b1ad-c960194dcbef"
+        },
+        {
+          "value": "\n2. In your tests, you're doing a second validation with ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "CSVRowSchema1.array().safeParse(results)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 6,
+                "startColumn": 7,
+                "endLineNumber": 6,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "0ac78aac-5548-41be-82ee-6b7b6add745d"
+        },
+        {
+          "value": "\n\nThis double validation is causing issues because:\n\n- Your first validation transforms each row into an object (e.g., `{ name: \"Alice\", age: 23 }`)\n- Your second validation expects the input to still be arrays that can be transformed\n\n## The Solution\n\nYou have two options:\n\n### Option 1: Return Plain Arrays and Do Schema Validation in Tests Only\n\n```typescript\n// In parseCSV:\n// Just parse each line into string arrays without schema validation\n// Return string[][]\n\n// In tests:\n// Do schema validation once: CSVRowSchema1.array().safeParse(results)\n```\n\n### Option 2: Do Schema Validation in ParseCSV Only (Better Approach)\n\n```typescript\n// In parseCSV:\n// Parse each line with CSVRowSchema.safeParse(values)\n// Return array of transformed objects (T[])\n\n// In tests:\n// DON'T do a second validation with CSVRowSchema1.array().safeParse\n// Just use the results directly\n```\n\n## What's Happening Now\n\nIn your current setup:\n1. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "parseCSV",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 23,
+                "endLineNumber": 18,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "40a3ad02-2b77-4b14-98a9-c8344ca1196d"
+        },
+        {
+          "value": " does ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "CSVRowSchema.safeParse(values)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 49,
+                "endLineNumber": 18,
+                "endColumn": 49
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "60692b21-1410-4985-b9be-408816e98803"
+        },
+        {
+          "value": " on each row and returns objects\n2. Your tests do ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "CSVRowSchema1.array().safeParse(results)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 6,
+                "startColumn": 7,
+                "endLineNumber": 6,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "866ac3f0-460e-4acb-a4b2-6b366233bdc3"
+        },
+        {
+          "value": " which tries to transform objects back into objects\n\nSince Option 2 is more efficient, I recommend keeping the schema validation in ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "parseCSV",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 23,
+                "endLineNumber": 18,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "699726fe-112c-4955-9276-c75ceb622f6e"
+        },
+        {
+          "value": " but removing the second validation in tests. The tests should directly check the returned objects.\n\nThe main issue is that you're shadowing the result variable AND doing double validation. Fix both issues and your tests should work correctly.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_76a3da06-42fb-4223-8883-ff2f6f46d098",
+      "result": {
+        "timings": {
+          "firstProgress": 2288,
+          "totalElapsed": 10848
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "// In parseCSV:\n// Just parse each line into string arrays without schema validation\n// Return string[][]\n\n// In tests:\n// Do schema validation once: CSVRowSchema1.array().safeParse(results)\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "# Understanding the Schema Validation Flow\n\nLooking at both your code and tests, I see where the confusion lies. Let me clarify how the schema validation should work:\n\n## The Current Issue\n\nThe core issue is related to the schema expectations and validation flow:\n\n1. In your  function, you're doing initial schema validation with \n2. In your tests, you're doing a second validation with \n\nThis double validation is causing issues because:\n\n- Your first validation transforms each row into an object (e.g., `{ name: \"Alice\", age: 23 }`)\n- Your second validation expects the input to still be arrays that can be transformed\n\n## The Solution\n\nYou have two options:\n\n### Option 1: Return Plain Arrays and Do Schema Validation in Tests Only\n\n"
+            },
+            {
+              "code": "// In parseCSV:\n// Parse each line with CSVRowSchema.safeParse(values)\n// Return array of transformed objects (T[])\n\n// In tests:\n// DON'T do a second validation with CSVRowSchema1.array().safeParse\n// Just use the results directly\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "\n### Option 2: Do Schema Validation in ParseCSV Only (Better Approach)\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "# Understanding the Schema Validation Flow\n\nLooking at both your code and tests, I see where the confusion lies. Let me clarify how the schema validation should work:\n\n## The Current Issue\n\nThe core issue is related to the schema expectations and validation flow:\n\n1. In your `parseCSV` function, you're doing initial schema validation with `CSVRowSchema.safeParse(values)`\n2. In your tests, you're doing a second validation with `CSVRowSchema1.array().safeParse(results)`\n\nThis double validation is causing issues because:\n\n- Your first validation transforms each row into an object (e.g., `{ name: \"Alice\", age: 23 }`)\n- Your second validation expects the input to still be arrays that can be transformed\n\n## The Solution\n\nYou have two options:\n\n### Option 1: Return Plain Arrays and Do Schema Validation in Tests Only\n\n```typescript\n// In parseCSV:\n// Just parse each line into string arrays without schema validation\n// Return string[][]\n\n// In tests:\n// Do schema validation once: CSVRowSchema1.array().safeParse(results)\n```\n\n### Option 2: Do Schema Validation in ParseCSV Only (Better Approach)\n\n```typescript\n// In parseCSV:\n// Parse each line with CSVRowSchema.safeParse(values)\n// Return array of transformed objects (T[])\n\n// In tests:\n// DON'T do a second validation with CSVRowSchema1.array().safeParse\n// Just use the results directly\n```\n\n## What's Happening Now\n\nIn your current setup:\n1. `parseCSV` does `CSVRowSchema.safeParse(values)` on each row and returns objects\n2. Your tests do `CSVRowSchema1.array().safeParse(results)` which tries to transform objects back into objects\n\nSince Option 2 is more efficient, I recommend keeping the schema validation in `parseCSV` but removing the second validation in tests. The tests should directly check the returned objects.\n\nThe main issue is that you're shadowing the result variable AND doing double validation. Fix both issues and your tests should work correctly.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "aebc8b2c-da39-4c76-b243-9dacb7b0558a"
+            }
+          ],
+          "modelMessageId": "92dc4fe1-558d-418e-9b99-a6cb1ee1e3d5",
+          "responseId": "b84e8c1a-3474-4265-a9d1-6b8e770ac96c",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1757780358038,
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_f723e7a0-0c12-4f67-a6cc-a2aba8b80b29",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 233
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 234
+            },
+            "text": "That makes a lot of sense, thanks! So now that I've removed the redundancies, what seems to be the last issue is that results isn't sure whether it can be ensured to be an array, as one option is a ZodError. How should I ensure this?",
+            "kind": "text"
+          }
+        ],
+        "text": "That makes a lot of sense, thanks! So now that I've removed the redundancies, what seems to be the last issue is that results isn't sure whether it can be ensured to be an array, as one option is a ZodError. How should I ensure this?"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+              "scheme": "file"
+            },
+            "name": "basic-parser.ts",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.file",
+            "name": "file:new-parser.test.ts",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+              "scheme": "file"
+            },
+            "modelDescription": "User's active file"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "# Handling the Type Safety Issue\n\nYou've identified the key issue now: your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "parseCSV",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 23,
+                "endLineNumber": 18,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "22c4ae6d-a0c0-45b6-a300-f72da45fc053"
+        },
+        {
+          "value": " function has a return type that includes ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "z.ZodError",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/external.d.cts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/external.d.cts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/external.d.cts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "177d96d3-c6ec-48ec-bed1-bf52e099617d"
+        },
+        {
+          "value": ", making TypeScript unsure if the result will be an array when used in your tests.\n\nHere are a few approaches to handle this:\n\n## Option 1: Type Guard Check in Tests\n\n```typescript\ntest(\"parseCSV yields arrays\", async () => {\n    const result = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1);\n    \n    // Check if result is not a ZodError\n    if (result instanceof z.ZodError) {\n        // Handle error case - maybe fail the test\n        fail(\"Got ZodError instead of array: \" + result.message);\n        return;\n    }\n    \n    // Now TypeScript knows result must be an array\n    expect(result).toHaveLength(5);\n    expect(result[0]).toEqual({ name: \"name\", age: NaN });\n    // Rest of your assertions...\n});\n```\n\n## Option 2: Throw Error in ParseCSV Instead of Returning It\n\nThis is generally better practice since it makes error handling more straightforward:\n\n```typescript\n// In your parseCSV function:\nif (parsedResult.success) {\n    result.push(parsedResult.data);\n} else {\n    throw parsedResult.error; // Throw instead of return\n}\n\n// Then update return type to remove ZodError\nexport async function parseCSV<T>(path: string, CSVRowSchema: z.ZodType<T>): Promise<string[][] | T[]> {\n```\n\n## Option 3: Use a Result/Either Pattern (Advanced)\n\nFor more complex applications, you could implement a result pattern:\n\n```typescript\ntype Result<T, E = Error> = { success: true; data: T } | { success: false; error: E };\n\n// Then return Result<string[][] | T[], z.ZodError>\n```\n\n## Recommended Solution\n\nOption 2 (throwing errors) is typically the cleanest approach for asynchronous functions in TypeScript. This way:\n\n1. Your function signature is simpler\n2. Test code is cleaner (use try/catch if needed)\n3. Follows standard error handling patterns for async code\n\nWith this change, your tests will know they're dealing with arrays, and TypeScript will be able to properly type check your code.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_3c1a90b8-4aac-495a-961f-23e83a9d96c3",
+      "result": {
+        "timings": {
+          "firstProgress": 2152,
+          "totalElapsed": 13180
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "test(\"parseCSV yields arrays\", async () => {\n    const result = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1);\n    \n    // Check if result is not a ZodError\n    if (result instanceof z.ZodError) {\n        // Handle error case - maybe fail the test\n        fail(\"Got ZodError instead of array: \" + result.message);\n        return;\n    }\n    \n    // Now TypeScript knows result must be an array\n    expect(result).toHaveLength(5);\n    expect(result[0]).toEqual({ name: \"name\", age: NaN });\n    // Rest of your assertions...\n});\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "# Handling the Type Safety Issue\n\nYou've identified the key issue now: your  function has a return type that includes , making TypeScript unsure if the result will be an array when used in your tests.\n\nHere are a few approaches to handle this:\n\n## Option 1: Type Guard Check in Tests\n\n"
+            },
+            {
+              "code": "// In your parseCSV function:\nif (parsedResult.success) {\n    result.push(parsedResult.data);\n} else {\n    throw parsedResult.error; // Throw instead of return\n}\n\n// Then update return type to remove ZodError\nexport async function parseCSV<T>(path: string, CSVRowSchema: z.ZodType<T>): Promise<string[][] | T[]> {\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "\n## Option 2: Throw Error in ParseCSV Instead of Returning It\n\nThis is generally better practice since it makes error handling more straightforward:\n\n"
+            },
+            {
+              "code": "type Result<T, E = Error> = { success: true; data: T } | { success: false; error: E };\n\n// Then return Result<string[][] | T[], z.ZodError>\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "\n## Option 3: Use a Result/Either Pattern (Advanced)\n\nFor more complex applications, you could implement a result pattern:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "# Handling the Type Safety Issue\n\nYou've identified the key issue now: your `parseCSV` function has a return type that includes `z.ZodError`, making TypeScript unsure if the result will be an array when used in your tests.\n\nHere are a few approaches to handle this:\n\n## Option 1: Type Guard Check in Tests\n\n```typescript\ntest(\"parseCSV yields arrays\", async () => {\n    const result = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1);\n    \n    // Check if result is not a ZodError\n    if (result instanceof z.ZodError) {\n        // Handle error case - maybe fail the test\n        fail(\"Got ZodError instead of array: \" + result.message);\n        return;\n    }\n    \n    // Now TypeScript knows result must be an array\n    expect(result).toHaveLength(5);\n    expect(result[0]).toEqual({ name: \"name\", age: NaN });\n    // Rest of your assertions...\n});\n```\n\n## Option 2: Throw Error in ParseCSV Instead of Returning It\n\nThis is generally better practice since it makes error handling more straightforward:\n\n```typescript\n// In your parseCSV function:\nif (parsedResult.success) {\n    result.push(parsedResult.data);\n} else {\n    throw parsedResult.error; // Throw instead of return\n}\n\n// Then update return type to remove ZodError\nexport async function parseCSV<T>(path: string, CSVRowSchema: z.ZodType<T>): Promise<string[][] | T[]> {\n```\n\n## Option 3: Use a Result/Either Pattern (Advanced)\n\nFor more complex applications, you could implement a result pattern:\n\n```typescript\ntype Result<T, E = Error> = { success: true; data: T } | { success: false; error: E };\n\n// Then return Result<string[][] | T[], z.ZodError>\n```\n\n## Recommended Solution\n\nOption 2 (throwing errors) is typically the cleanest approach for asynchronous functions in TypeScript. This way:\n\n1. Your function signature is simpler\n2. Test code is cleaner (use try/catch if needed)\n3. Follows standard error handling patterns for async code\n\nWith this change, your tests will know they're dealing with arrays, and TypeScript will be able to properly type check your code.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "b2fcc232-b01c-436b-9073-d08bb6ed663d"
+            }
+          ],
+          "modelMessageId": "1d4f8112-d1a8-409d-ae50-9632f0bfeaa1",
+          "responseId": "00a2c5d6-8261-4f0b-aeb7-a204761fc7f4",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1757780562924,
+      "modelId": "copilot/claude-3.7-sonnet"
+    },
+    {
+      "requestId": "request_daa085cc-cdb5-4ecf-8394-be4cd34751fd",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 122
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 123
+            },
+            "text": "I've added checks that would fail the test if the results produce a ZodError, but results still isn't certain of its type.",
+            "kind": "text"
+          }
+        ],
+        "text": "I've added checks that would fail the test if the results produce a ZodError, but results still isn't certain of its type."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:new-parser.test.ts",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 7,
+                "startColumn": 135,
+                "endLineNumber": 7,
+                "endColumn": 141,
+                "selectionStartLineNumber": 7,
+                "selectionStartColumn": 135,
+                "positionLineNumber": 7,
+                "positionColumn": 141
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "# TypeScript Type Assertion for Test Results\n\nI see the issue now. Even though you're checking that ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "results",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 10,
+                "startColumn": 11,
+                "endLineNumber": 10,
+                "endColumn": 11
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "492fe5c5-97a2-42a0-89af-7ae520ce5600"
+        },
+        {
+          "value": " isn't a ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "ZodError",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 6,
+                "startColumn": 18,
+                "endLineNumber": 6,
+                "endColumn": 18
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/errors.d.cts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/errors.d.cts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/node_modules/zod/v4/classic/errors.d.cts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "b4c65392-599a-427e-83cc-7958f6b2669a"
+        },
+        {
+          "value": ", TypeScript's type system doesn't automatically narrow the union type after your `instanceof` check. This is a limitation of TypeScript's control flow analysis in some contexts.\n\nHere are a few ways to fix this:\n\n## Option 1: Type Assertion (Simplest)\n\nAdd a type assertion after your check:\n\n```typescript\ntest(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (results instanceof z.ZodError) {\n        fail(\"Got a ZodError\");\n        return;\n    }\n    \n    // Add type assertion here\n    const typedResults = results as { name: string, age: any }[];\n    \n    expect(typedResults).toHaveLength(5);\n    expect(typedResults[0]).toEqual({ name: \"name\", age: NaN });\n    // Rest of assertions...\n});\n```\n\n## Option 2: Explicit Type Guard Function\n\n```typescript\nfunction isNotZodError<T>(value: T | z.ZodError): value is T {\n    return !(value instanceof z.ZodError);\n}\n\ntest(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (!isNotZodError(results)) {\n        fail(\"Got a ZodError\");\n        return;\n    }\n    \n    // TypeScript now knows results is the T type\n    expect(results).toHaveLength(5);\n    // Rest of assertions...\n});\n```\n\n## Option 3: Use the Jest `fail` Function\n\n```typescript\ntest(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (results instanceof z.ZodError) {\n        fail(\"Got a ZodError: \" + results.message);\n        return; // This return is important\n    }\n    \n    // TypeScript should now recognize this is not a ZodError\n    expect(results).toHaveLength(5);\n    // Rest of assertions...\n});\n```\n\n## Option 4: Fix Your ParserCSV Function\n\nThe best solution would be to modify your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "parseCSV",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 18,
+                "startColumn": 23,
+                "endLineNumber": 18,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/src/basic-parser.ts",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "a4e525e1-74be-433a-8300-12c926deef1f"
+        },
+        {
+          "value": " function to throw errors instead of returning them:\n\n```typescript\nexport async function parseCSV<T>(path: string, CSVRowSchema?: z.ZodType<T>): Promise<string[][] | T[]> {\n    // ...existing code...\n    if (parsedResult.success) {\n        result.push(parsedResult.data)\n    } else {\n        throw parsedResult.error; // Throw instead of return\n    }\n    // ...rest of function...\n}\n```\n\nThis makes the return type cleaner and forces errors to be handled properly with try/catch.\n\nI recommend option 4 as the cleanest solution, followed by option 1 as the quickest fix if you can't modify the parseCSV function.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_99e267f8-089a-45b3-b059-c72fdca30c1c",
+      "result": {
+        "timings": {
+          "firstProgress": 2230,
+          "totalElapsed": 11975
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "test(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (results instanceof z.ZodError) {\n        fail(\"Got a ZodError\");\n        return;\n    }\n    \n    // Add type assertion here\n    const typedResults = results as { name: string, age: any }[];\n    \n    expect(typedResults).toHaveLength(5);\n    expect(typedResults[0]).toEqual({ name: \"name\", age: NaN });\n    // Rest of assertions...\n});\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "# TypeScript Type Assertion for Test Results\n\nI see the issue now. Even though you're checking that  isn't a , TypeScript's type system doesn't automatically narrow the union type after your `instanceof` check. This is a limitation of TypeScript's control flow analysis in some contexts.\n\nHere are a few ways to fix this:\n\n## Option 1: Type Assertion (Simplest)\n\nAdd a type assertion after your check:\n\n"
+            },
+            {
+              "code": "function isNotZodError<T>(value: T | z.ZodError): value is T {\n    return !(value instanceof z.ZodError);\n}\n\ntest(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (!isNotZodError(results)) {\n        fail(\"Got a ZodError\");\n        return;\n    }\n    \n    // TypeScript now knows results is the T type\n    expect(results).toHaveLength(5);\n    // Rest of assertions...\n});\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "\n## Option 2: Explicit Type Guard Function\n\n"
+            },
+            {
+              "code": "test(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (results instanceof z.ZodError) {\n        fail(\"Got a ZodError: \" + results.message);\n        return; // This return is important\n    }\n    \n    // TypeScript should now recognize this is not a ZodError\n    expect(results).toHaveLength(5);\n    // Rest of assertions...\n});\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "\n## Option 3: Use the Jest `fail` Function\n\n"
+            },
+            {
+              "code": "export async function parseCSV<T>(path: string, CSVRowSchema?: z.ZodType<T>): Promise<string[][] | T[]> {\n    // ...existing code...\n    if (parsedResult.success) {\n        result.push(parsedResult.data)\n    } else {\n        throw parsedResult.error; // Throw instead of return\n    }\n    // ...rest of function...\n}\n",
+              "language": "typescript",
+              "markdownBeforeBlock": "\n## Option 4: Fix Your ParserCSV Function\n\nThe best solution would be to modify your  function to throw errors instead of returning them:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "# TypeScript Type Assertion for Test Results\n\nI see the issue now. Even though you're checking that `results` isn't a `ZodError`, TypeScript's type system doesn't automatically narrow the union type after your `instanceof` check. This is a limitation of TypeScript's control flow analysis in some contexts.\n\nHere are a few ways to fix this:\n\n## Option 1: Type Assertion (Simplest)\n\nAdd a type assertion after your check:\n\n```typescript\ntest(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (results instanceof z.ZodError) {\n        fail(\"Got a ZodError\");\n        return;\n    }\n    \n    // Add type assertion here\n    const typedResults = results as { name: string, age: any }[];\n    \n    expect(typedResults).toHaveLength(5);\n    expect(typedResults[0]).toEqual({ name: \"name\", age: NaN });\n    // Rest of assertions...\n});\n```\n\n## Option 2: Explicit Type Guard Function\n\n```typescript\nfunction isNotZodError<T>(value: T | z.ZodError): value is T {\n    return !(value instanceof z.ZodError);\n}\n\ntest(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (!isNotZodError(results)) {\n        fail(\"Got a ZodError\");\n        return;\n    }\n    \n    // TypeScript now knows results is the T type\n    expect(results).toHaveLength(5);\n    // Rest of assertions...\n});\n```\n\n## Option 3: Use the Jest `fail` Function\n\n```typescript\ntest(\"parseCSV yields arrays\", async () => {\n    const results = await parseCSV(PEOPLE_CSV_PATH, CSVRowSchema1)\n    if (results instanceof z.ZodError) {\n        fail(\"Got a ZodError: \" + results.message);\n        return; // This return is important\n    }\n    \n    // TypeScript should now recognize this is not a ZodError\n    expect(results).toHaveLength(5);\n    // Rest of assertions...\n});\n```\n\n## Option 4: Fix Your ParserCSV Function\n\nThe best solution would be to modify your `parseCSV` function to throw errors instead of returning them:\n\n```typescript\nexport async function parseCSV<T>(path: string, CSVRowSchema?: z.ZodType<T>): Promise<string[][] | T[]> {\n    // ...existing code...\n    if (parsedResult.success) {\n        result.push(parsedResult.data)\n    } else {\n        throw parsedResult.error; // Throw instead of return\n    }\n    // ...rest of function...\n}\n```\n\nThis makes the return type cleaner and forces errors to be handled properly with try/catch.\n\nI recommend option 4 as the cleanest solution, followed by option 1 as the quickest fix if you can't modify the parseCSV function.",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "835d46b4-089f-4c5d-bd9b-ea111b319b8e"
+            }
+          ],
+          "modelMessageId": "f15e7133-8e86-4880-ba73-c884d2db737d",
+          "responseId": "e01d4720-533c-471a-8665-43ddae069e2f",
+          "sessionId": "7b726449-585d-4f90-8ac1-52cc967c337b",
+          "agentId": "github.copilot.default"
+        },
+        "details": "Claude Sonnet 3.7 • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask or edit in context",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JackSharks05",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/88631445",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "external": "file:///Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second%20year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "path": "/Users/jackdehaan/Desktop/omnia/ps/education/brunensis/second year/classes/fall/cs320/sprints/typescript-csv-JackSharks05/tests/new-parser.test.ts",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1757780797515,
+      "modelId": "copilot/claude-3.7-sonnet"
+    }
+  ]
+}
