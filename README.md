@@ -22,7 +22,7 @@ The LLM I prompted suggested similar things that I thought of, especially with t
     The first three were from my thinking, while the last one was from the LLM.
 
     Include your notes from above: what were your initial ideas, what did the LLM suggest, and how did the results differ by prompt? What resonated with you, and what didn’t? (3-5 sentences.) 
-    My initial ideas were all edge cases (functionality), as the user may want to put anything (commas, quotes, escape characters, or blank space) as their input. The LLM also made me think of what the user would want with erroneous/extraneous whitespace, as this can vary per user and by intention. The LLM suggested everything that I originally wrote down, as well as some more advanced extensibility-facing enhancements that didn't seem too relevant for our user's purposes.
+    My initial ideas were all edge cases (functionality), as the user may want to put anything (commas, quotes, escape characters, or blank space) as their input. The LLM also made me think of what the user would want with erroneous/extraneous whitespace, as this can vary per user and by intention. The LLM suggested everything that I originally wrote down, as well as some more advanced extensibility-facing enhancements that didn't seem too relevant for our user's purposes. There was not much difference between prompts.
 
 ### Design Choices
 
